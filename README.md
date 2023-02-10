@@ -1,8 +1,8 @@
 # Computational Fluid Dynamics
 ## Master's Project Abstract
-The project examined the numerical approximation of the time-dependent, incompressible, viscous Navier-Stokes equations in a 2-dimensional periodic channel. A finite volume projection method is used on a staggered, rectangular grid arrangement. We validate the method with results showing a parabolic profile for low Reynolds numbers as well as instabilities in the boundary layer for large Reynolds numbers. The computations are GPU-accelerated by using the CuPy open-source array library in Python.  
+The project examined the numerical approximation of the time-dependent, incompressible, viscous Navier-Stokes equations in a 2-dimensional periodic channel. A finite volume projection method is used on a staggered, rectangular grid arrangement. The computations are GPU-accelerated by using the CuPy open-source array library in Python. However, that project stayed with the university; to be continued as a 3-D model. 
 
-However, that project stayed with the university; to be continued as a 3-D model. Here, I will illustrate the mathematical and compuational workflows of the project by presenteting a 2-D cavity flow driven by a moving lid. 
+Here, I will illustrate the mathematical and compuational workflows of the project by presenteting a 2-D cavity flow driven by a moving lid. 
 ## Navier Stokes Equations
 Navier-Stokes equations, in fluid mechanics, are partial differential equations that describes the flow of incompressible fluids. For example, it describes the relationship between flow velocity (or momentum) and pressure. We will start with the simplified 2D model. The 2D Navier Stoke Equation are:
 $$\vec{W}_{t} \nu\Delta\vec{W}+\left(\vec{W}\cdot\nabla\right)\vec{W}+\nabla P =0, \quad\mathbf{x}\in\Omega,\quad t>0$$
